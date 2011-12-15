@@ -26,7 +26,8 @@ at command line and/or runtime in a range of 0.001 <-> 0.5
 %setup -q
 
 %build
-%make
+%setup_compile_flags
+make
 
 %install
 mkdir -p %{buildroot}%{_bindir} %{buildroot}%{_datadir}/applications %{buildroot}%{_iconsdir}
