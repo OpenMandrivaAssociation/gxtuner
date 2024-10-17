@@ -4,7 +4,7 @@ Version:	2.0
 Release:	2
 License:	GPLv2
 Group:		Sound
-URL:		http://guitarix.sourceforge.net/
+URL:		https://guitarix.sourceforge.net/
 Source0:	http://sourceforge.net/projects/guitarix/files/gxtuner/%{name}-%{version}.tar.bz2
 BuildRequires:	jackit-devel gtk+2-devel fftw3-devel libzita-resampler-devel
 
